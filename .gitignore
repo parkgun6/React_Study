@@ -21,3 +21,16 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+/.metadata/
+.class
+bin
+.classpath
+.project
+/multiModules/
+/webws/
+/quiz/
+/backup/
+/w1/
+/j1/
+/01.Java/
+application.properties
