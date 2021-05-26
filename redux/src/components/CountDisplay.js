@@ -1,12 +1,17 @@
 import { useSelector } from "react-redux";
+import PageHeader from "./PageHeader";
 
 const CountDisplay = () => {
 
-    const count = useSelector(state => state.count)
+    //store가 보관하고 있는 state
+    const count = useSelector(state => state.countReducer.count)
     console.log(count)
 
-    return (  
-        <h1>{count}</h1>
+    return (
+        <div>
+            <PageHeader></PageHeader>
+            <h1>{count}</h1>
+        </div>
     );
 }
  
