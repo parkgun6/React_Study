@@ -8,7 +8,7 @@ export const counterSlice = createSlice({
     },
     reducers: {
         //함수가 액션을 대신한다.
-        inc: (state, action) => {
+        inc: (state) => {
             console.log("inc")
             state.count += 1
         },
